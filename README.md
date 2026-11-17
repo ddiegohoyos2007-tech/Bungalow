@@ -41,9 +41,9 @@ Consejo: comprime las fotos en https://squoosh.app antes de subirlas para que la
 
 ## Publicarla gratis con GitHub Pages
 
-1. Junta los cambios en la rama `main`.
+1. Sube los cambios a la rama principal del repositorio.
 2. En GitHub, abre **Settings → Pages → Build and deployment → Source** y elige **GitHub Actions**.
-3. Cada vez que haya un cambio en `main`, la web se publica sola en `https://<tu-usuario>.github.io/bungalow/`.
+3. Cada vez que haya un cambio en esa rama, la web se publica sola en `https://<tu-usuario>.github.io/bungalow/`.
 
 Si después quieres un dominio propio, como `bungalowcajamarca.com`, se configura en la misma sección de Pages.
 
