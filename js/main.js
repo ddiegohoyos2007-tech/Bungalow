@@ -27,7 +27,7 @@ const io = new IntersectionObserver(
   (entries) => entries.forEach((e) => e.isIntersecting && (e.target.classList.add("visible"), io.unobserve(e.target))),
   { threshold: 0.12 }
 );
-document.querySelectorAll(".section h2, .split__text, .split__media, .amenity, .card, .book__card, .gallery__item, .form")
+document.querySelectorAll(".section h2, .split__text, .split__media, .amenity, .card, .book__card, .gallery__item, .form, .host__card, .review, .info__item")
   .forEach((el) => { el.classList.add("reveal"); io.observe(el); });
 
 // Visor de fotos (galería)

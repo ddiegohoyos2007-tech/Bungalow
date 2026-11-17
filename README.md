@@ -28,12 +28,12 @@ Web de una sola página para el bungalow, hecha en HTML, CSS y JavaScript, sin d
 
 ## Cómo personalizarla
 
-1. **Fotos:** sube tus fotos a la carpeta `images/` con estos nombres:
+1. **Fotos:** las 7 fotos actuales salen de capturas del anuncio. Para que se vean más nítidas, reemplázalas por las originales en la carpeta `images/`, con los mismos nombres:
    - `portada.jpg` para el fondo de la portada (horizontal, de unos 1920 px de ancho).
-   - De `foto-1.jpg` a `foto-8.jpg` para la galería. `foto-1` sale grande y también en "El bungalow".
+   - De `foto-1.jpg` a `foto-7.jpg` para la galería. `foto-1` sale grande y `foto-6` también aparece en "El bungalow".
 
    Mientras falte una foto, se ve un recuadro de color en su lugar.
-2. **Textos:** en `index.html`, busca los comentarios `EDITA:`. Ahí cambias la descripción, la cantidad de huéspedes, camas y baños, las comodidades y la zona.
+2. **Textos:** todo está en `index.html`.
 3. **Mapa:** en `index.html`, cambia `q=Cajamarca,+Peru` por tu dirección o tus coordenadas, por ejemplo `q=-7.16,-78.50`.
 4. **Colores:** al inicio de `css/styles.css`.
 
